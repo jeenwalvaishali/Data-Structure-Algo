@@ -25,3 +25,42 @@
         smallest value in the circular list. If there are multiple suitable places for insertion, you may choose any place to insert the new value.
         After the insertion, the circular list should remain sorted. If the list is empty (i.e., the given node is null),
         you should create a new single circular list and return the reference to that single node. Otherwise, you should return the originally given node.
+
+# Assignment2:
+
+* ### Question1:
+       * Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+
+* ### Question2:
+      * Given the root of a binary tree, return its maximum depth.
+        A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+* ### Question3:
+      * Given the root of a binary tree, imagine yourself standing on the right side of it,
+        return the values of the nodes you can see ordered from top to bottom.
+
+* ### Question4:
+      * Given the root of a binary tree, return the zigzag level order traversal of its nodes' values.
+        (i.e., from left to right, then right to left for the next level and alternate between).
+
+* ### Question5:
+      * Given the root of a binary tree, return the vertical order traversal of its nodes' values. (i.e., from top to bottom, column by column).
+        If two nodes are in the same row and column, the order should be from left to right.
+
+* ### Question6:
+      * Given the root of a binary tree, return the maximum width of the given tree.
+        The maximum width of a tree is the maximum width among all levels.
+        The width of one level is defined as the length between the end-nodes (the leftmost and rightmost non-null nodes),
+        where the null nodes between the end-nodes that would be present in a complete binary tree extending down to that
+        level are also counted into the length calculation.It is guaranteed that the answer will in the range of a 32-bit signed integer.
+
+* ### Question7:
+      * Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+        According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T
+        that has both p and q as descendants (where we allow a node to be a descendant of itself).”
+
+* ### Question8:
+      * Given the root of a binary tree, collect a tree's nodes as if you were doing this:
+        Collect all the leaf nodes.
+        Remove all the leaf nodes.
+        Repeat until the tree is empty.
