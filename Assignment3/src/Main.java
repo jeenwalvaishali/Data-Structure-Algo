@@ -37,15 +37,12 @@ public class Main {
 //        List<List<Integer>> subsetList = subsets.subsets(nums);
 //        System.out.println("Output " + subsetList);
 
-//        Parentheses parentheses = new Parentheses();
-//        int n = 3;
-//        List<String> list =  parentheses.generateParenthesis(n);
-//        System.out.println("Output " + list);
-
-        SourceToTarget source = new SourceToTarget();
-        int[][] graph = {{1,2}, {3}, {3}, {}};
-        List<List<Integer>> list = source.allPathsSourceTarget(graph);
+        Parentheses parentheses = new Parentheses();
+        int n = 3;
+        List<String> list =  parentheses.generateParenthesis(n);
         System.out.println("Output " + list);
+
+
         
     }
 }
